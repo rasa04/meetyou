@@ -7,5 +7,7 @@
     </head>
     <body>
         <h1>{{$greeting}}</h1>
+        <a href="{{ route('profile', ['id' => 1]) }}">profile</a>
+        <a href="{{ route('site') }}">site</a>
     </body>
 </html>
